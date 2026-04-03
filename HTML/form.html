@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<fieldset>
+    <legend><mark>Job Application</mark></legend>
+    <form action="">
+        <label for="username">Name</label>
+        <input type="text" name="username" id="username" placeholder="Enter your name" required>
+        <br><br>
+        <label for="mail">Email</label>
+        <input type="email" name="email" id="mail" placeholder="Enter your email">
+        <br><br>
+        <label for="mobile">Contact no.</label>
+        <input type="tel" name="mobile" id="mobile" placeholder="Enter your contact no." minlength="10" maxlength="10">
+         <br><br>
+        <label for="gender">Gender:</label> <br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <br><br>
+
+        <label for="skills">skills:</label><br>
+        <label for="html">HTML</label>
+        <input type="checkbox" name="skills" id="html" value="html" checked>
+        <label for="css">CSS</label>
+        <input type="checkbox" name="skills" id="css" value ="css" checked>
+        <label for="js">JS</label>
+        <input type="checkbox" name="skills" id="js" value="js" checked>
+        <label for="react">React</label>
+        <input type="checkbox" name="skills" id="react" value="react"> <br><br>
+
+        <label for="resume">Resume</label>
+        <input type="file" name="resume" id="resume" value="resume" accept=".pdf"> <br><br>
+
+        <label for="">DOJ</label>
+        <input type="date" name="doj" id="doj" min="2026-05-01" max="2026-05-15"> <br><br>
+
+        <label for="branch">Branch</label>
+        <select name="" id="">
+            <option value="">CSE</option>
+            <option value="">ECE</option>
+            <option value="">IT</option>
+        </select> <br><br>
+
+        <label for="">Departments</label>
+        <select name="" id="">
+        <optgroup label="Management">
+            <option value="">BBA</option>
+            <option value="">MBA</option>
+        </optgroup>
+        <optgroup label="Engineering">
+            <option value="">Diploma</option>
+            <option value="">Btech</option>
+            <option value="">Mtech</option>
+        </optgroup>
+        </Select> <br><br>
+
+        <details open>
+            <summary>Upcoming Drives...</summary>
+            <p>TCS</p>
+            <p>Google</p>
+            <p>Microsoft</p>
+        </details>
+        <br><br>
+
+        <label for="">Experience</label>
+        <input type="range" name="" id="" step="20"> <br><br>
+
+        Time Slot <input type="time" name="" id=""> <br><br>
+        <input type="color" name="" id=""> <br><br>
+
+        <label for="">Address</label>
+        <textarea name="" id=""></textarea> <br><br>
+
+        <label for="">Fee:</label>
+        <input type="text" name="" id="" value="2000000" readonly> <br><br>
+
+
+        <input type="submit" name="" id="" value="Login">
+        <input type="reset" name="" id="">
+
+
+        <!-- <button>submit</button> -->
+    </form>
+</fieldset>
+</body>
+</html>
