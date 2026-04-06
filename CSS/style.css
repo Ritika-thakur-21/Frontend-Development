@@ -1,0 +1,174 @@
+/*  selectors */
+
+/* simple selectors */
+/* id, class, tagname, grouping, universal*/
+
+/* universal selector */
+/* *{
+    background-color: gray;
+    color: black;
+} */
+
+/* id selector */
+/* #head1{
+    background-color: rebeccapurple;
+    color: beige;
+}
+    /* class selector */
+/*.head{
+    background-color: red;
+    color: wheat;
+}
+/* tagname selector */
+/*h1{
+    background-color: blue;
+    color: white;
+} */
+
+/* grouping selector */
+
+/* h1,p, h3{
+    background-color: rgb(73, 73, 151);
+    color: black;
+} */
+
+/* combinators selector */
+
+/* descendant sekector (it will target direct as well as indirect children)*/
+
+/* div p{
+    background-color: yellowgreen;
+    color: peru;
+} */
+
+/* child selector (it will target only direct children) */
+/* div>h2{
+    background-color: brown;
+    color: peru;
+} */
+
+/* adjacent sibling selector (it will target the adjacent sibling) */
+/* h2 + p{
+    background-color: lightblue;
+    color: darkblue;
+} */
+
+/* general sibling selector (it will target all the siblings) */
+/* h2 ~ p{
+    background-color: lightgreen;
+    color: darkgreen;
+} */
+
+/* pseudo class selector */
+
+/* a:link{
+    color: brown;
+}
+a:visited{
+    color: green;
+}
+a:active{
+    color: pink;
+} */
+
+/* input:focus{
+    background-color: lightblue;
+    color: cornflowerblue;
+} */
+
+/* input:checked{
+    accent-color: lightgreen;
+}
+input:disabled{
+    background-color: red;
+} */
+
+/* pseudo element selector */
+
+/* h1::first-letter{
+    color: red;
+    font-size: 50px;
+}
+p::first-line{
+    color: blue;
+    font-size: 20px;
+} */
+/* h1::before{
+    content: "😒";
+}
+h1::after{
+    content: "🙄";
+}
+p::selection{
+    background-color: lightblue;
+    color: darkblue;
+}
+li::marker{
+    content: "😊";
+}
+input::placeholder{
+    color: red;
+} */
+
+/* Units */
+/* *{
+    margin: 0;
+}
+div{
+    width: 800px;
+    height: 400px;
+    height: 100vh;
+    width: 100vw;
+    background-color: lightblue;
+    color: darkblue;
+    font-size: 40px;
+} */
+/* main{   
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    font-size:2em;
+    font-size: 2rem;
+} */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 100vh;
+    width: 100vw;
+    background-color: lightblue;
+}
+button{
+    background-color: lightblue;
+    color: darkblue;
+    margin: 10px;
+    border: 5px solid red ;
+    padding: 20px;
+}
+article{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: auto;
+} */
+
+/* color */
+
+h1{
+    /* background-color: lightcoral; */
+    /* background-color: rgb(221, 135, 206); */
+    /* background-color: rgba(221, 135, 206, 0.5); */
+    /* background-color: hsl(154, 36%, 42%); */
+    /* background-color: hsla(155, 36%, 42%, 0.5); */
+    /* background-color: #ffff00; */
+
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
