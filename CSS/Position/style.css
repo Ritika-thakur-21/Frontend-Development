@@ -1,0 +1,20 @@
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: magenta;
+    position: relative;
+    /* position: absolute; */
+    /* top: 200px;
+    left: 200px; */
+    margin: auto;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    /* position: relative; */
+    top: 100px;
+    /* left: 0; */
+    right: 50px;    
+}
