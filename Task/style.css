@@ -1,0 +1,21 @@
+div ul > li {
+    color: goldenrod;
+}
+div ul ul li {
+    color: black;
+}
+
+.paneer {
+    color: cyan;
+}
+
+h1 + ul > li {
+    color: goldenrod;
+}
+.lassi > li {
+    color: green;
+}
+
+.lassi ul li {
+    color: brown;
+}
