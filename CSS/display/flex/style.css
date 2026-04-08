@@ -1,0 +1,21 @@
+.container{
+    height: 600px;
+    width: 800px;
+    background-color: lightblue;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    flex-direction: row;  */
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: lightcoral;
+}

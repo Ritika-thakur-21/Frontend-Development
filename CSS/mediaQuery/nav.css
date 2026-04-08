@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: plum;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.ham{
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+#toggle{
+    display: none;
+}
+
+@media (max-width: 767px){
+    .menu{
+        display: none;
+        flex-direction: column;
+        background-color: powderblue;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+    }
+    #toggle:checked + .ham + .menu{
+        display: flex;
+    }
+    .ham{
+        display: block;
+    }
+}
