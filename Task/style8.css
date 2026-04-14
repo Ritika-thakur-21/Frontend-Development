@@ -1,0 +1,117 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body background */
+body {
+    background-color: #f3e5d8; /* beige background */
+    font-family: 'Georgia', serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+/* Main card */
+.container {
+    width: 600px;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+/* Image */
+.container img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Heading */
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #2c2c2c;
+}
+
+/* Description */
+p {
+    font-size: 14px;
+    color: #6b6b6b;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Pink box */
+.pinkcontainer {
+    background-color: #fff0f5;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.pinkcontainer h3 {
+    color: #7b284f;
+    margin-bottom: 10px;
+}
+
+.pinkcontainer ul {
+    padding-left: 20px;
+}
+
+.pinkcontainer li {
+    margin-bottom: 5px;
+}
+
+/* Section headings */
+h2, h3 {
+    color: #7b284f;
+    margin-bottom: 10px;
+}
+
+/* Ingredients */
+.ing ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.ing li {
+    margin-bottom: 8px;
+}
+
+/* Instructions */
+.instruct ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.instruct li {
+    margin-bottom: 10px;
+}
+
+/* Divider */
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+/* Nutrition table */
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition td {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+.nutrition td:last-child {
+    text-align: right;
+    font-weight: bold;
+    color: #7b284f;
+}
