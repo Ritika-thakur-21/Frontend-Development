@@ -5,7 +5,8 @@ const App = () => {
         username : '',
         password : '',
         gender : '',
-        skills : []
+        skills : [],
+        option : ''
     })
     let handleChange = (e) => {
         // console.log(e.target.value);
@@ -15,17 +16,22 @@ const App = () => {
             [name]:value
         })
     }
-    let [check, setChecked] = useState([])
-    let handleCheckBox = (e) => {
-      console.log(e);
-      
-      let {name , value} = e.target
-      setChecked({...check, [name]:value});
 
-      {
-        
-      }
+    // !-- handlecheckbox
+    // let [check, setChecked] = useState([])
+    // let handleCheckBox = (e) => {
+    //   console.log(e);
+      
+    //   let {name , value} = e.target
+    //   setChecked({...check, [name]:value});
+    // }
+
+    // !-- handle select
+    let [opt, setOpt] = useState('')
+    let handleSelect = (e) => {
+      console.log(e);
     }
+
   return (
     <div>
       <form action="">
@@ -34,14 +40,20 @@ const App = () => {
       Male <input type="radio" name="gender" id="" value='Male' onChange={handleChange}/>
       Female <input type="radio" name="gender" id="" value='Female' onChange={handleChange}/> <br /><br />
 
-      HTML<input type="checkbox" name="skills" id="" value='html' onChange={handleCheckBox} />
-      CSS<input type="checkbox" name="skills" id="" value='css' onChange={handleCheckBox} />
+      {/* HTML<input type="checkbox" name="skills" id="" value='html' onChange={handleCheckBox} />
+      CSS<input type="checkbox" name="skills" id="" value='css' onChange={handleCheckBox} /> */}
+      
+      <select name="option" id="" onChange={handleChange} value={data.option}>
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Bangalore">Bangalore</option>
+      </select>
       </form>
       <hr />
         <h1>Username : {data.username}</h1>
         <h1>Password : {data.password}</h1>
         <h1>Gender : {data.gender}</h1>
-        <h1>Skills : {data.skills.join(', ')}</h1>
+        <h3>Location : {data.option}</h3>
     </div>
   )
 }
