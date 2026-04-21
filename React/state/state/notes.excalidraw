@@ -1,0 +1,45 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "vscode-webview://03vug150i9ikncnf7u9446an5e69o6c6jtqjsiedc2uagpj6u3q0",
+  "elements": [
+    {
+      "type": "text",
+      "version": 458,
+      "versionNonce": 1404593765,
+      "isDeleted": false,
+      "id": "CtNGZiRrOsfdG9FfZ5iMX",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 253.1040680568189,
+      "y": 17.2999344384924,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 964.94140625,
+      "height": 192,
+      "seed": 1338317734,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1776484979138,
+      "link": null,
+      "locked": false,
+      "fontSize": 20,
+      "fontFamily": 5,
+      "text": "state :\n   - state is normal JS object.\n   - which is responsible to hold data and update it according to changes\n   - Functional based components are stateless componenet\n   - If we want to make functional based component as stateful component we need to use hook -> useState()\n\nuseState() :\n    - ",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "state :\n   - state is normal JS object.\n   - which is responsible to hold data and update it according to changes\n   - Functional based components are stateless componenet\n   - If we want to make functional based component as stateful component we need to use hook -> useState()\n\nuseState() :\n    - "
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "iGc9fIi827tc7PAPWCjr2",
+      "type": "text",
+      "x": 308,
+      "y": 128,
+      "width": 771.8594970703125,
+      "height": 325,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a1",
+      "roundness": null,
+      "seed": 1988478293,
+      "version": 428,
+      "versionNonce": 1654092020,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1776399088187,
+      "link": null,
+      "locked": false,
+      "text": "JSX Rules : \njsx can return only 1 element (we need to wrap all elements in 1 parent element)\n\neach tag must be closed\n\nJSX Expression :\n\n- we can't use if-else, for loop\n- we can only use map, ternary operator\n- instead of class attribute we need to use className\n- instead of for attribute we need to use htmlFor \n- to give css we need to pass in the form of object (key value pair) camel case\n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "JSX Rules : \njsx can return only 1 element (we need to wrap all elements in 1 parent element)\n\neach tag must be closed\n\nJSX Expression :\n\n- we can't use if-else, for loop\n- we can only use map, ternary operator\n- instead of class attribute we need to use className\n- instead of for attribute we need to use htmlFor \n- to give css we need to pass in the form of object (key value pair) camel case\n",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
