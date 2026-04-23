@@ -1,0 +1,14 @@
+nav{
+    height: 65px;
+    display: flex;
+    gap: 20px;
+    background-color: cyan;
+}
+.menu{
+    text-decoration: none;
+    color: rgb(219, 84, 84);
+}
+.active{
+    font-weight: 800;
+    color: red;
+}
